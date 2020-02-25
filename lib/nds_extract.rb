@@ -85,7 +85,6 @@ def gross_per_studio(collection)
     end
     counter1 += 1 
   end
-  pp grosshash
   grosshash
 end
 
