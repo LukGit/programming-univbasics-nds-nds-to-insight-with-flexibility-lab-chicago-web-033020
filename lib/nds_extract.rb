@@ -101,7 +101,6 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   director_idx = 0 
   outer_array = []
-  pp source[0]
   while director_idx < source.size do 
     director_name = souce[director_idx][:name]
     movies = source[director_idx][:movies]
