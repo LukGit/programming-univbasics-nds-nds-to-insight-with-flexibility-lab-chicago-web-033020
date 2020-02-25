@@ -103,8 +103,8 @@ def movies_with_directors_set(source)
   outer_array = []
   pp source[0]
   while director_idx < source.size do 
-    director_name = souce[counter1][:name]
-    movies = source[counter1][:movies]
+    director_name = souce[director_idx][:name]
+    movies = source[director_idx][:movies]
     new_movie_array = movies_with_director_key(director_name,movies)
     outer_array << new_movie_array
     director_idx += 1 
