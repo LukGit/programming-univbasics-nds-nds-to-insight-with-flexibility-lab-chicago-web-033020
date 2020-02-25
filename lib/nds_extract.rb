@@ -83,7 +83,9 @@ def gross_per_studio(collection)
     else
       grosshash[studio_name] += studio_gross
     end
+    counter1 += 1 
   end
+  grosshash
 end
 
 def movies_with_directors_set(source)
