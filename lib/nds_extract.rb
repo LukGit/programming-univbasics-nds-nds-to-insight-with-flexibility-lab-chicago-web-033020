@@ -55,6 +55,7 @@ def movies_with_director_key(name, movies_collection)
     movieArray << newmovie
     counter1 += 1 
   end
+  pp movieArray
   movieArray
 end
 
