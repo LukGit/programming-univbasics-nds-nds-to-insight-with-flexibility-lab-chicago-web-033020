@@ -76,7 +76,9 @@ def gross_per_studio(collection)
   gorsshash = {}
   moviegross = 0 
   while counter1 < collection.size do 
-    if !grosshash[collection]
+    if !grosshash[collection] 
+    
+    end
   end
 end
 
